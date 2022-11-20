@@ -1,10 +1,10 @@
 import React from "react";
-import WeatherBody from "./WeatherBody";
+import WeatherForecast from "./WeatherForecast";
 
 const Card = (props) => {
     return (
-        <div className="card">
-            <WeatherBody {...props} />
+        <div className="weather">
+            <WeatherForecast{...props} />
         </div>
     )
 }
