@@ -1,8 +1,8 @@
 import React from "react";
-
-const WeatherIcon = (props) => {
+//i would use destructing for these but props works great too!
+const WeatherIcon = ({img}) => {
     return (
-        <img src={props.img}/>
+        <img src={img}/>
     )
 }
 export default WeatherIcon;
