@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles.css";
 import weatherData from "./weatherData";
-import WeatherBody from "./WeatherForcast/weatherBody";
+import WeatherBody from "./components/WeatherBody";
 
 const weather = weatherData.map((ele, index) => {
   return <WeatherBody {...ele} key={index}/>

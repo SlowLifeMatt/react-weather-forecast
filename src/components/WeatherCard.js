@@ -1,5 +1,5 @@
 import React from "react";
-import WeatherBody from "./weatherBody";
+import WeatherBody from "./WeatherBody";
 
 const Card = (props) => {
     return (
